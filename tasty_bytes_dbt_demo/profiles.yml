@@ -4,18 +4,18 @@ tasty_bytes:
     dev:
       type: snowflake
       account: 'not needed'
-      user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
-      schema: dev
-      warehouse: tasty_bytes_dbt_wh
+      user: 'JDIFKO'
+      role: developer
+      database: JDIFKO_DB
+      schema: DEV
+      warehouse: play_xs
       threads: 8
     prod:
       type: snowflake
       account: 'not needed'
-      user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
-      schema: prod
-      warehouse: tasty_bytes_dbt_wh
+      user: 'JDIFKO'
+      role: developer
+      database: JDIFKO_DB
+      schema: PROD
+      warehouse: play_xs
       threads: 8
